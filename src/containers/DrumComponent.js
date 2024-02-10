@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Container
+  Container,
 } from 'react-bootstrap';
 import UIfx from 'uifx';
 
@@ -13,7 +13,7 @@ import LabelComponent from '../components/LabelComponent';
 import './DrumComponent.scss';
 
 import {
-  keys, drums, drumMap, miscMap, on, off
+  keys, drums, drumMap, miscMap, on, off,
 } from '../const';
 
 const DrumComponent = () => {
@@ -29,7 +29,7 @@ const DrumComponent = () => {
     keys.forEach((element) => {
       audioMap.set(element, {
         file: new UIfx(effectMap.get(element).file),
-        label: effectMap.get(element).label
+        label: effectMap.get(element).label,
       });
     });
     setFx(audioMap);
@@ -52,7 +52,7 @@ const DrumComponent = () => {
     setVolume(evt.target.value);
   };
 
-  const powerHandler = (evt) => {
+  const powerHandler = () => {
     setPower(power === on ? off : on);
   };
 
@@ -61,7 +61,7 @@ const DrumComponent = () => {
       <h1 className="text-center my-4">Drum Machine</h1>
       <div className="d-flex flex-row flex-wrap justify-content-center px-5">
         <div className="mb-4 drum-pad-wrapper">
-            <PadComponent keys={keys} handler={keyHandler} power={power} />
+          <PadComponent keys={keys} handler={keyHandler} power={power} />
         </div>
         <div className="mb-4 drum-control-wrapper">
           <div className="d-flex flex-column justify-content-between drum-control-container">
@@ -71,7 +71,6 @@ const DrumComponent = () => {
             <TypesComponent type={typeEffect} handler={typeHandler} power={power} />
           </div>
         </div>
-        
       </div>
     </Container>
   );
