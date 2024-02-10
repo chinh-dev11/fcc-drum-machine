@@ -26,76 +26,76 @@ export const off = 'off';
 export const drumMap = new Map([
   [keys[0], {
     file: drumQ,
-    label: 'Fat Big Techno Kick'
+    label: 'Fat Big Techno Kick',
   }],
   [keys[1], {
     file: drumW,
-    label: 'Heavy Techno Kick'
+    label: 'Heavy Techno Kick',
   }],
   [keys[2], {
     file: drumE,
-    label: 'Natural Techno Bongo'
+    label: 'Natural Techno Bongo',
   }],
   [keys[3], {
     file: drumA,
-    label: 'Panned Hard Techno Kick'
+    label: 'Panned Hard Techno Kick',
   }],
   [keys[4], {
     file: drumS,
-    label: 'Punchy Clicky Techno Kick'
+    label: 'Punchy Clicky Techno Kick',
   }],
   [keys[5], {
     file: drumD,
-    label: 'Pushing Steely Techno Kick'
+    label: 'Pushing Steely Techno Kick',
   }],
   [keys[6], {
     file: drumZ,
-    label: 'Reverbed Dark Rolling Techno Kick'
+    label: 'Reverbed Dark Rolling Techno Kick',
   }],
   [keys[7], {
     file: drumX,
-    label: 'Sloppy Classic Techno Kick'
+    label: 'Sloppy Classic Techno Kick',
   }],
   [keys[8], {
     file: drumC,
-    label: 'Summer House Tuned Kick'
+    label: 'Summer House Tuned Kick',
   }],
 ]);
 export const miscMap = new Map([
   [keys[0], {
     file: miscQ,
-    label: 'Champagne Cork Popping'
+    label: 'Champagne Cork Popping',
   }],
   [keys[1], {
     file: miscW,
-    label: 'Cheers Bottle One'
+    label: 'Cheers Bottle One',
   }],
   [keys[2], {
     file: miscE,
-    label: 'Electric Screwdriver'
+    label: 'Electric Screwdriver',
   }],
   [keys[3], {
     file: miscA,
-    label: 'Gulp Sound Effect'
+    label: 'Gulp Sound Effect',
   }],
   [keys[4], {
     file: miscS,
-    label: 'Hammer Hitting'
+    label: 'Hammer Hitting',
   }],
   [keys[5], {
     file: miscD,
-    label: 'Horse Snorts'
+    label: 'Horse Snorts',
   }],
   [keys[6], {
     file: miscZ,
-    label: 'Opening Wine Bottle'
+    label: 'Opening Wine Bottle',
   }],
   [keys[7], {
     file: miscX,
-    label: 'Short Gasping'
+    label: 'Short Gasping',
   }],
   [keys[8], {
     file: miscC,
-    label: 'Single Beeping Sharp'
+    label: 'Single Beeping Sharp',
   }],
 ]);

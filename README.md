@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Build fail fixes
+- Node.js v18.
+- react-scripts v5.
+- eslint-plugin-react-hooks v4.
+- node-sass v8.
+
 ## Available Scripts
 
 In the project directory, you can run:
